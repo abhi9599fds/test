@@ -7,7 +7,7 @@ import { OrderModel } from "./orderModel.js"
 import moment from "moment";
 import pkg from "sequelize";
 
-const {Op} = pkg;
+const { Op } = pkg;
 
 const router = Router();
 const uploader = multer({dest:"temp/csv/"});
